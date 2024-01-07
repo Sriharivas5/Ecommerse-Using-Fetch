@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipzone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/13011/13011196.png">
+</head>
+
+<body>
+    <video autoplay muted loop id="backgrounVideo">
+        <source src="./source/video.mp4" type="video/mp4">
+    </video>
+    <div id="content">
+        <div class="nav">
+            <div class="start">
+                <h2>Flipzone</h2>
+            </div>
+            <div class="end">
+                <ul class="hamburgerbefore">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+        </div>
+        <button onclick="fetch_product()">Load More</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
